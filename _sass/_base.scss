@@ -321,6 +321,15 @@ header {
     font-size: 4em;
 }
 
+// footer
+footer {
+  background-color: $theme-primary;
+  margin-bottom: 10;
+  p {
+    font-size: 12px;
+  }
+}
+
 // Extras
 // -- Highlight Color Customization
 ::-moz-selection {
