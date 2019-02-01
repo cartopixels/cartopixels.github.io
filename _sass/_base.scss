@@ -316,6 +316,12 @@ header {
 }
 
 // Contact
+#contact {
+  @include background-cover;
+  background-position: center;
+  background-image: url('../img/background_2.png');
+}
+
 #contact .fa {
     color: $theme-dark;
     font-size: 4em;
