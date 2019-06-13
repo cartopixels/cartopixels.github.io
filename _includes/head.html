@@ -6,14 +6,34 @@
     <meta name="description" content="Geospatial services for GIS, Remote Sensing, Cartography and Geomatics">
     <meta name="author" content="cartopixels">
     <meta name ="Robots" content ="noindex, nofollow"/>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 
     <title>cartopixels | Geospatial</title>
     <link rel="canonical" href="https://cartopixels.com/index.html"/>
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
 
+    <!-- Open Graph protocol -->
+    <meta property="og:title" content="{{ page.title }}"/>
+    {% if page.image %}<meta property="og:image" content="{{ site.url }}{{ page.image }}"/>{% endif %}
+    <meta property="og:url" content="{{ site.url }}"/>
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="{{ site.title }}"/>
+    <meta property="og:description" content="Geospatial services for GIS, Remote Sensing, Cartography and Geomatics"/>
+
+    <!-- Twitter protocol -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@Lerry_WS">
+    <meta name="twitter:creator" content="@Lerry_WS">
+    <meta name="twitter:title" content="{{ page.title }}" />
+    {% if page.image %}<meta name="twitter:image" content="{{ site.url }}{{ page.image }}" />{% endif %}
+    <meta name="twitter:url" content="{{ site.url }}{{ page.url }}" />
+    <meta name="twitter:description" content="Geospatial services for GIS, Remote Sensing, Cartography and Geomatics" />
+
     <!-- Custom Fonts -->
-      <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
     <!-- <link rel="stylesheet" href="font-awesome/css/all.css" type="text/css"> -->
