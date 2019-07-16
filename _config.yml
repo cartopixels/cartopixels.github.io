@@ -5,7 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: cartopixels.com # the base hostname & protocol for your site
 port: 4002
-twitter_username: Lerry_WS
+twitter_username: wslerry
 github_username: wslerry
 encoding: utf-8
 # Build settings
