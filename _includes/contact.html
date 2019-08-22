@@ -1,12 +1,136 @@
+<style>
+#contactForm input[type="text"],
+#contactForm input[type="email"],
+#contactForm input[type="tel"],
+#contactForm input[type="url"],
+#contactForm textarea,
+#contactForm button[type="submit"] {
+  font: 400 12px/16px "Ubuntu", Helvetica, Arial, sans-serif;
+}
+
+#contactForm {
+  background: #F9F9F9;
+  padding: 25px;
+  margin: 150px 0;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#contactForm h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+#contactForm h4 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contactForm input[type="text"],
+#contactForm input[type="email"],
+#contactForm input[type="tel"],
+#contactForm input[type="url"],
+#contactForm textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+#contactForm input[type="text"]:hover,
+#contactForm input[type="email"]:hover,
+#contactForm input[type="tel"]:hover,
+#contactForm input[type="url"]:hover,
+#contactForm textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
+}
+
+#contactForm textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#contactForm button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #4CAF50;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#contactForm button[type="submit"]:hover {
+  background: #43A047;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#contactForm button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.copyright {
+  text-align: center;
+}
+
+#contactForm input:focus,
+#contactForm textarea:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+
+::-webkit-input-placeholder {
+  color: #888;
+}
+
+:-moz-placeholder {
+  color: #888;
+}
+
+::-moz-placeholder {
+  color: #888;
+}
+
+:-ms-input-placeholder {
+  color: #888;
+}
+</style>
+
 <section id="contact">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center">
-                <h2 class="section-heading">Let's Get In Touch!</h2>
-                <hr class="primary">
-                <p>Ready to start your geospatial project with us? That's great! Contact us and we will get back to you as soon as possible!</p>
-            </div>
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScP7uhfPCQ0x9s9jvnVfgxHLssxfYV2lMCFVcJPDuzhm4nKJw/viewform?embedded=true" width="100%" height="791" frameborder="0" marginheight="0" marginwidth="0"></iframe>
-
+      <form id="contactForm" action="https://formspree.io/lerryws.xyz@outlook.com" method="post">
+        <h4>Contact us for custom quote</h4>
+        <fieldset>
+          <input name="name" placeholder="Your name" type="name" tabindex="1" required autofocus>
+        </fieldset>
+        <fieldset>
+          <input name="email" placeholder="Your Email Address" type="email" tabindex="2" required>
+        </fieldset>
+        <fieldset>
+          <textarea name="message" placeholder="Type your message here...." tabindex="5" required></textarea>
+        </fieldset>
+        <fieldset>
+          <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+        </fieldset>
+      </form>
     </div>
 </section>
