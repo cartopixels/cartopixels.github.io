@@ -11,11 +11,12 @@
   <!-- {% include portfolio.html %} -->
   {% include contact.html %}
   {% include scripts.html %}
+  <script type="text/javascript">
+    $(document).ready(function(){
+    $(this).scrollTop(0);
+    });
+  </script>
 </body>
-<script type="text/javascript">
-  $(document).ready(function(){
-  $(this).scrollTop(0);
-  });
-</script>
+
 {% include footer.html %}
 </html>
