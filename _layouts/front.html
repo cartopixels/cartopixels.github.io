@@ -9,13 +9,18 @@
   {% include call-to-action.html %}
   {% include services.html %}
   <!-- {% include portfolio.html %} -->
+  <script type="text/javascript">
+  $(window).on('beforeunload', function(){
+    $(window).scrollTop(0);
+  });
+  </script>
   {% include contact.html %}
   {% include scripts.html %}
-  <script type="text/javascript">
+  <!-- <script type="text/javascript">
     $(document).ready(function(){
     $(this).scrollTop(0);
     });
-  </script>
+  </script> -->
 </body>
 
 {% include footer.html %}
