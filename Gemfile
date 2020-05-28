@@ -13,6 +13,8 @@ source "https://rubygems.org"
 # Happy Jekylling!
 return true if ENV['NETLIFY']
 gem "jekyll", "~> 3.8.5"
+gem "nokogiri", ">= 1.10.8"
+gem "rubyzip", ">= 1.3.0"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 #gem "web-mapping"
