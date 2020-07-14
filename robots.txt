@@ -1,8 +1,8 @@
 User-agent: Twitterbot
-Disallow:  /
+Disallow: 
 
 User-agent: *
-Disallow: 
+Disallow: /
 
 User-agent: CuteStat
 Disallow: /
