@@ -6,7 +6,7 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
 gem "kramdown", ">= 2.3.0"
 
-return true if ENV['NETLIFY']
+# return true if ENV['NETLIFY']
 gem "jekyll", ">= 3.8.5"
 gem "nokogiri", ">= 1.10.8"
 gem "rubyzip", ">= 1.3.0"

@@ -6,8 +6,7 @@ url: cartopixels.com # the base hostname & protocol for your site
 port: 4002
 
 email: mail@cartopixels.com
-twitter_username: wslerry
-github_username: wslerry
+
 encoding: utf-8
 # Build settings
 markdown: kramdown
@@ -21,6 +20,6 @@ plugins:
 
 # exclude
 exclude:
-    - .gitignore
-    - Gemfile
-    - Gemfile.lock
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock

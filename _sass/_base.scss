@@ -330,9 +330,10 @@ header {
 // footer
 footer {
   background-color: $theme-primary;
-  margin-bottom: 10;
+  background-size: auto;
   p {
     font-size: 12px;
+    margin-bottom: 0;
   }
 }
 
