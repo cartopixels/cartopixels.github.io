@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 # gemspec
-
+gem "kramdown", ">= 2.3.0"
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
 # file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
@@ -12,7 +12,7 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 return true if ENV['NETLIFY']
-gem "jekyll", "~> 3.8.5"
+gem "jekyll", ">= 3.8.5"
 gem "nokogiri", ">= 1.10.8"
 gem "rubyzip", ">= 1.3.0"
 

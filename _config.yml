@@ -1,6 +1,6 @@
 # Site settings
 title: cartopixels.com
-email: cartopixels@outlook.com
+email: mail@cartopixels.com
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: cartopixels.com # the base hostname & protocol for your site
