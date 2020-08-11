@@ -25,6 +25,8 @@ gem "rubyzip", ">= 1.3.0"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
+  gem "jekyll-sitemap"
+  gem "jekyll-autoprefixer"
   gem "jekyll-feed"
   gem "jekyll-seo-tag"
   gem "jekyll-include-cache"
