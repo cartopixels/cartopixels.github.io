@@ -1,10 +1,11 @@
 # Site settings
 title: cartopixels.com
-email: mail@cartopixels.com
-description: > # this means to ignore newlines until "baseurl:"
+description: Geospatial Consultant and Data Solution
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: cartopixels.com # the base hostname & protocol for your site
 port: 4002
+
+email: mail@cartopixels.com
 twitter_username: wslerry
 github_username: wslerry
 encoding: utf-8
@@ -17,3 +18,9 @@ plugins:
   - jekyll-seo-tag
   - jekyll-include-cache
   - github-page
+
+# exclude
+exclude:
+    - .gitignore
+    - Gemfile
+    - Gemfile.lock
