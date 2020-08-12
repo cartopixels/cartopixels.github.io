@@ -329,12 +329,24 @@ header {
 
 // footer
 footer {
-  background-color: $theme-primary;
-//   background-size: auto;
-  p {
-    font-size: 12px;
-    margin-bottom: 0;
-  }
+    padding-top: 2em;
+    color: white;
+    background-color: $theme-primary;
+    // background-size: auto;
+    li > a{
+        color: white;
+        @include sans-serif-font;
+        &:hover {
+            font-size: 20px;
+            color: rgba($color: #ffffff, $alpha: 0.5);
+        }
+    }
+    p {
+        @include sans-serif-font;
+        font-size: 12px;
+        margin-bottom: 0em;
+        padding-bottom: 2em;
+    }
 }
 
 // Extras

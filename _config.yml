@@ -8,8 +8,14 @@ port: 4002
 email: mail@cartopixels.com
 
 encoding: utf-8
+
 # Build settings
 markdown: kramdown
+
+# kramdown:
+#   input: GFM
+#   syntax_highlighter: rouge
+
 plugins:
   - jekyll-sitemap
   - jekyll-autoprefixer
@@ -17,6 +23,22 @@ plugins:
   - jekyll-seo-tag
   - jekyll-include-cache
   - github-page
+
+# permalinks
+# permalink: /posts/:title
+
+# webrick:
+#   headers:
+#       X-Frame-Options : DENY
+#       X-XSS-Protection: 1; mode=block
+#       Content-Security-Policy: default-src 'unsafe-inline' 'none' https://github.com https://raw.githubusercontent.com;
+#               font-src 'self' https://fonts.googleapis.com https://cdnjs.cloudflare.com https://cdn.jsdelivr.net;
+#               img-src 'self' *;
+#               object-src 'none';
+#               script-src 'unsafe-inline' 'self' http://code.jquery.com https://cdn.jsdelivr.net http://cdnjs.cloudflare.com https://badge.fury.io;
+#               style-src 'unsafe-inline' 'self' https://cdnjs.cloudflare.com http://cdn.jsdelivr.net https://cdn.knightlab.com;
+#       Referrer-Policy: no-referrer, strict-origin-when-cross-origin
+#       Strict-Transport-Security: max-age=63072000
 
 # exclude
 exclude:

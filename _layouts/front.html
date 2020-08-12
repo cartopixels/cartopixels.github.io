@@ -1,27 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: default
+---
 
-{% include head.html %}
+{% include_cached nav.html %}
+{% include_cached header.html %}
+{% include_cached call-to-action.html %}
+{% include_cached services.html %}
+<!-- {% include portfolio.html %} -->
 
-<body id="page-top">
-  {% include nav.html %}
-  {% include header.html %}
-  {% include call-to-action.html %}
-  {% include services.html %}
-  <!-- {% include portfolio.html %} -->
-  <script type="text/javascript">
-  $(window).on('beforeunload', function(){
-    $(window).scrollTop(0);
-  });
-  </script>
-  {% include contact.html %}
-  {% include scripts.html %}
-  <script type="text/javascript">
-    $(document).ready(function(){
-    $(this).scrollTop(0);
+{% include_cached contact.html %}
+{% include_cached scripts.html %}
+<script type="text/javascript">
+  $(document).ready(function () {
+      window.scrollTo(0,0);
     });
-  </script>
-</body>
-
-{% include footer.html %}
-</html>
+</script>

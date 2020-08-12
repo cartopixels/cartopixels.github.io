@@ -1,6 +1,27 @@
 
 <footer>
-  <div class="row">
-    <p class="bg-primary text-center" id="footer">&copy; {{ site.time | date: '%Y' }} {{ site.url }}</p>
+  {% comment %} <p class="bg-primary text-center" id="footer">&copy; {{ site.time | date: '%Y' }} {{ site.url }}</p> {% endcomment %}
+  {% comment %} <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <h5>Support</h5>
+          <ul>
+            <li><a href="/faq">FAQ</a></li>
+          </ul>
+      </div>
+      <div class="col-sm-6" >
+        <h5>Legal</h5>
+          <ul>
+              <li><a href="#aboutModal">Terms of Service</a></li>
+              <li><a href="#privacy">Privacy Policy</a></li>
+          </ul>
+      </div>
+    </div>
+  </div> {% endcomment %}
+  <div>
+    <p class="bg-primary text-center" id="footer">&copy; {{ site.url }} {{ site.time | date: '%Y' }} | Powered by <a href="https://jekyllrb.com/"><img src="https://aksakalli.github.io/jekyll-doc-theme/assets/img/logonav.png" width="30px"/></a></p>
   </div>
 </footer>
+
+
+
