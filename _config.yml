@@ -1,8 +1,10 @@
 # Site settings
 title: cartopixels.com
-description: Geospatial Consultant and Data Solution
+description: >- 
+  Geospatial Consultation and Data Solution
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: cartopixels.com # the base hostname & protocol for your site
+lang: en_US
 port: 4002
 
 email: mail@cartopixels.com
@@ -12,9 +14,10 @@ encoding: utf-8
 # Build settings
 markdown: kramdown
 
-# kramdown:
-#   input: GFM
-#   syntax_highlighter: rouge
+sass:
+  indentWidth: 4
+  style: compressed
+  precision: 10
 
 plugins:
   - jekyll-sitemap
@@ -45,3 +48,4 @@ exclude:
   - .gitignore
   - Gemfile
   - Gemfile.lock
+  - README.md
