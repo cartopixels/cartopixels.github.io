@@ -5,9 +5,18 @@
 
 <body id="page-top">
 
-  {{ content }}
+  {% if site.maintenance == false %}
+    {{ content }}
+  {% else %}
+    {% include_cached under-maintenance.html %}
+  {% endif %}
 
 </body>
 
-{% include_cached footer.html %}
+  {% if site.maintenance == false %}
+    {% include_cached footer.html %}
+  {% else %}
+    
+  {% endif %}
+
 </html>
