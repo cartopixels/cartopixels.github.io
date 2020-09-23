@@ -6,7 +6,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: cartopixels.com # the base hostname & protocol for your site
 lang: en_US
 port: 4002
-maintenance: true
+maintenance: false
 email: mail@cartopixels.com
 
 encoding: utf-8
