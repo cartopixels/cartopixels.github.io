@@ -8,7 +8,7 @@ gem "kramdown", ">= 2.3.1"
 
 # return true if ENV['NETLIFY']
 gem "jekyll", ">= 3.8.5"
-gem "nokogiri", ">= 1.10.8"
+gem "nokogiri", ">= 1.11.0"
 gem "rubyzip", ">= 1.3.0"
 
 group :jekyll_plugins do
