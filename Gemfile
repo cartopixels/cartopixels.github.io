@@ -14,7 +14,7 @@ gem "rubyzip", ">= 1.3.0"
 group :jekyll_plugins do
   gem "jekyll-sitemap"
   gem "jekyll-autoprefixer"
-  gem "jekyll-feed"
+  #gem "jekyll-feed"
   gem "jekyll-seo-tag"
   gem "jekyll-include-cache"
   gem "github-pages"
