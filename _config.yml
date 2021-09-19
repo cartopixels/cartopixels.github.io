@@ -2,27 +2,31 @@
 title: cartopixels.com
 description: >- 
   Geospatial Consultation and Data Solution
+tagline: Geospatial Consultation and Data Solution
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: cartopixels.com # the base hostname & protocol for your site
 lang: en_US
 port: 4002
 maintenance: false
 email: mail@cartopixels.com
-
+image: /favicon/cartopixels_200x200.png
 encoding: utf-8
 
 # Build settings
 markdown: kramdown
 
-sass:
-  indentWidth: 4
-  style: compressed
-  precision: 10
+kramdown:
+  html_to_native: true
+  
+# sass:
+  # indentWidth: 4
+  # style: compressed
+  # precision: 10
 
 plugins:
   - jekyll-sitemap
   - jekyll-autoprefixer
-  - jekyll-feed
+  # - jekyll-feed
   - jekyll-seo-tag
   - jekyll-include-cache
   - github-page
@@ -46,6 +50,4 @@ plugins:
 # exclude
 exclude:
   - .gitignore
-  - Gemfile
   - Gemfile.lock
-  - README.md
